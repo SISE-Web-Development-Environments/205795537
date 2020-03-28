@@ -3,10 +3,28 @@
     font-family: Calibri;
 }
 
-h1{
+.centered {
     font-size: 90px;
+    opacity: 1.0;
+}
+table {
+    font-family: Calibri;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+    font-weight: normal;
+    direction: rtl;
 }
 
+td, th {
+    border: 1px solid #dddddd;
+    direction: rtl;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
 p.aboutMeP {
     direction: rtl;
@@ -15,6 +33,13 @@ p.aboutMeP {
     font-size: 15px;
 
 }
+p.answerMe {
+    direction: rtl;
+    font-family: Calibri, Calibri, aboutMeP;
+    font-weight: normal;
+    font-size: 15px;
+}
+
 p {
     font-family: Calibri, Calibri, aboutMeP;
     font-weight: normal;
