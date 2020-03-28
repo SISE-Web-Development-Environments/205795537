@@ -54,10 +54,8 @@ section {
 
 /* unvisited link */
 a {
-    padding: 10px 10px;
     text-decoration: none;
     display: inline-block;
-    border-radius: 10px;
 }
 
     a:link {
